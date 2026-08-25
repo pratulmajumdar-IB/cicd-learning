@@ -47,7 +47,7 @@ jobs:
 
       - name: Run tests
         env:
-          MONGO_URI: mongodb://localhost:27017/cicd_learning
+          MONGODB_URI: mongodb://localhost:27017/cicd_learning
         run: npm test
 
       - name: Stop MongoDB
